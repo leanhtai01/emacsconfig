@@ -1,0 +1,6 @@
+## ignore everything
+*
+
+## not ignore files
+!.gitignore
+!init.el
