@@ -4,3 +4,4 @@
 ## not ignore files
 !.gitignore
 !init.el
+!custom.el
