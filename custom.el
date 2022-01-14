@@ -7,7 +7,7 @@
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
- '(package-selected-packages '(nhexl-mode magit))
+ '(package-selected-packages '(treemacs nhexl-mode magit))
  '(ring-bell-function 'ignore)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
