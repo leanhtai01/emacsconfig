@@ -5,3 +5,5 @@
 !.gitignore
 !init.el
 !custom.el
+!/prog_conf
+!/prog_conf/*.el
