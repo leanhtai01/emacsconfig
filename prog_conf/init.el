@@ -33,5 +33,8 @@
   ;; SQL
   (load (concat current-dir "sql.el"))
 
+  ;; elisp
+  (load (concat current-dir "elisp.el"))
+
   ;; Web
   (load (concat current-dir "web.el")))
