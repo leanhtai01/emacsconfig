@@ -12,6 +12,10 @@
 (setq gc-cons-threshold 100000000)
 (setq read-process-output-max (* 1024 1024))
 
+;; lsp which-key integration
+(with-eval-after-load 'lsp-mode
+  (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration))
+
 ;; load configurations for corresponding language
 (let ((current-dir (concat user-emacs-directory "prog_conf/")))
   ;; C
