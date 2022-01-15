@@ -8,5 +8,8 @@
   (package-refresh-contents))
 (package-install-selected-packages)
 
+;; use which-key
+(which-key-mode)
+
 ;; load programming configurations
 (load (concat user-emacs-directory "prog_conf/init.el"))
