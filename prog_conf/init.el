@@ -27,6 +27,9 @@
   ;; C++
   (load (concat current-dir "cpp.el"))
 
+  ;; Shell script
+  (load (concat current-dir "sh.el"))
+
   ;; SQL
   (load (concat current-dir "sql.el"))
 
