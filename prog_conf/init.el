@@ -28,4 +28,7 @@
   (load (concat current-dir "cpp.el"))
 
   ;; SQL
-  (load (concat current-dir "sql.el")))
+  (load (concat current-dir "sql.el"))
+
+  ;; Web
+  (load (concat current-dir "web.el")))
