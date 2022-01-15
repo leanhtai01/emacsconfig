@@ -6,5 +6,8 @@
 
 ;; load configurations for corresponding language
 (let ((current-dir (concat user-emacs-directory "prog_conf/")))
+  ;; C
+  (load (concat current-dir "c.el"))
+  
   ;; C++
   (load (concat current-dir "cpp.el")))
