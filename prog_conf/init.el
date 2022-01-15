@@ -4,6 +4,10 @@
 ;; use company mode
 (add-hook 'prog-mode-hook 'company-mode)
 
+;; configure company-mode
+(setq company-minimum-prefix-length 1
+      company-idle-delay 0.0)
+
 ;; configure lsp-mode's performance
 (setq gc-cons-threshold 100000000)
 (setq read-process-output-max (* 1024 1024))
