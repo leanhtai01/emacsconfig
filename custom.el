@@ -7,7 +7,8 @@
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
- '(package-selected-packages '(lsp-ui company lsp-mode treemacs nhexl-mode magit))
+ '(package-selected-packages
+   '(flycheck lsp-ui company lsp-mode treemacs nhexl-mode magit))
  '(ring-bell-function 'ignore)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
