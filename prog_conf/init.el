@@ -4,6 +4,9 @@
 ;; use company mode
 (add-hook 'prog-mode-hook 'company-mode)
 
+;; use yasnippet
+(add-hook 'prog-mode-hook #'yas-minor-mode)
+
 ;; configure company-mode
 (setq company-minimum-prefix-length 1
       company-idle-delay 0.0)
