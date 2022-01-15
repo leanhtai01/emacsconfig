@@ -11,5 +11,11 @@
 ;; use which-key
 (which-key-mode)
 
+;; configure helm
+(helm-mode)
+(define-key global-map [remap find-file] #'helm-find-files)
+(define-key global-map [remap execute-extended-command] #'helm-M-x)
+(define-key global-map [remap switch-to-buffer] #'helm-mini)
+
 ;; load programming configurations
 (load (concat user-emacs-directory "prog_conf/init.el"))
