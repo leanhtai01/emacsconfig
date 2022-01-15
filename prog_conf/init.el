@@ -25,4 +25,7 @@
   (load (concat current-dir "c.el"))
   
   ;; C++
-  (load (concat current-dir "cpp.el")))
+  (load (concat current-dir "cpp.el"))
+
+  ;; SQL
+  (load (concat current-dir "sql.el")))
