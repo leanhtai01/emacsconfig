@@ -1,3 +1,6 @@
+;; add custom configurations to load-path
+(push "~/.config/emacs/prog_conf" load-path)
+
 ;; load customizations
 (setq custom-file (concat user-emacs-directory "leanhtai01-custom.el"))
 (load custom-file)
