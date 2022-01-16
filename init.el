@@ -1,5 +1,5 @@
 ;; load customizations
-(setq custom-file (concat user-emacs-directory "custom.el"))
+(setq custom-file (concat user-emacs-directory "leanhtai01-custom.el"))
 (load custom-file)
 
 ;; automatic install missing packages
@@ -21,4 +21,4 @@
 (good-scroll-mode 1)
 
 ;; load programming configurations
-(load (concat user-emacs-directory "prog_conf/init.el"))
+(load (concat user-emacs-directory "prog_conf/leanhtai01-prog-init.el"))
