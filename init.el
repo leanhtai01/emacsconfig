@@ -17,5 +17,8 @@
 (define-key global-map [remap execute-extended-command] #'helm-M-x)
 (define-key global-map [remap switch-to-buffer] #'helm-mini)
 
+;; use good-scroll
+(good-scroll-mode 1)
+
 ;; load programming configurations
 (load (concat user-emacs-directory "prog_conf/init.el"))
