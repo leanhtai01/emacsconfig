@@ -1,6 +1,9 @@
 ;; display fill column indicator
 (add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
 
+;; use rainbow-delimiters-mode
+(add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
+
 ;; use company mode
 (add-hook 'prog-mode-hook 'company-mode)
 
