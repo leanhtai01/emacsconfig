@@ -14,6 +14,11 @@
 (add-hook 'css-mode-hook #'lsp)
 (add-hook 'js-mode-hook #'lsp)
 
+;; configure web-mode
+(add-hook 'web-mode-hook #'emmet-mode)
+(add-hook 'web-mode-hook #'lsp)
+(add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+
 (provide 'leanhtai01-init-web)
 
 ;;; leanhtai01-init-web.el ends here
