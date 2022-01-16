@@ -31,7 +31,7 @@
 (good-scroll-mode 1)
 
 ;; load programming configurations
-(load (concat user-emacs-directory "prog_conf/leanhtai01-prog-init.el"))
+(require 'leanhtai01-prog-init)
 
 (provide 'init)
 

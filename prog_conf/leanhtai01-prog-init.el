@@ -30,24 +30,12 @@
   (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration))
 
 ;; load configurations for corresponding language
-(let ((current-dir (concat user-emacs-directory "prog_conf/")))
-  ;; C
-  (load (concat current-dir "c.el"))
-  
-  ;; C++
-  (load (concat current-dir "cpp.el"))
-
-  ;; Shell script
-  (load (concat current-dir "sh.el"))
-
-  ;; SQL
-  (load (concat current-dir "sql.el"))
-
-  ;; elisp
-  (load (concat current-dir "elisp.el"))
-
-  ;; Web
-  (load (concat current-dir "web.el")))
+(require 'leanhtai01-init-c)
+(require 'leanhtai01-init-cpp)
+(require 'leanhtai01-init-elisp)
+(require 'leanhtai01-init-sh)
+(require 'leanhtai01-init-sql)
+(require 'leanhtai01-init-web)
 
 (provide 'leanhtai01-prog-init)
 
