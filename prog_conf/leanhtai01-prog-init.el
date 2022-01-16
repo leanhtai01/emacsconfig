@@ -1,3 +1,10 @@
+;;; leanhtai01-prog-init.el --- programming configurations init file
+
+;;; Commentary:
+;; 
+
+;;; Code:
+
 ;; display fill column indicator
 (add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
 
@@ -41,3 +48,7 @@
 
   ;; Web
   (load (concat current-dir "web.el")))
+
+(provide 'leanhtai01-prog-init)
+
+;;; leanhtai01-prog-init.el ends here

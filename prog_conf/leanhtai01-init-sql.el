@@ -1,3 +1,10 @@
+;;; leanhtai01-init-sql.el --- configuration for sql
+
+;;; Commentary:
+;; 
+
+;;; Code:
+
 ;; capitalize keywords in sql-mode
 (add-hook 'sql-mode-hook 'sqlup-mode)
 
@@ -6,3 +13,7 @@
 
 ;; set a global keyword to use sqlup on a region
 (global-set-key (kbd "C-c u") 'sqlup-capitalize-keywords-in-region)
+
+(provide 'leanhtai01-init-sql)
+
+;;; leanhtai01-init-sql.el ends here

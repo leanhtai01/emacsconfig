@@ -1,3 +1,10 @@
+;;; init.el --- init file
+
+;;; Commentary:
+;; 
+
+;;; Code:
+
 ;; add custom configurations to load-path
 (push "~/.config/emacs/prog_conf" load-path)
 
@@ -25,3 +32,7 @@
 
 ;; load programming configurations
 (load (concat user-emacs-directory "prog_conf/leanhtai01-prog-init.el"))
+
+(provide 'init)
+
+;;; init.el ends here
