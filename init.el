@@ -30,9 +30,6 @@
 (define-key global-map [remap execute-extended-command] #'helm-M-x)
 (define-key global-map [remap switch-to-buffer] #'helm-mini)
 
-;; use good-scroll
-(good-scroll-mode 1)
-
 ;; load programming configurations
 (require 'leanhtai01-prog-init)
 
