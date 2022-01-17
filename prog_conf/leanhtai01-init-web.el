@@ -18,6 +18,7 @@
 (add-hook 'web-mode-hook #'emmet-mode)
 (add-hook 'web-mode-hook #'lsp)
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 
 (provide 'leanhtai01-init-web)
 
