@@ -5,6 +5,9 @@
 
 ;;; Code:
 
+;; use linum-mode
+(add-hook 'prog-mode-hook 'linum-mode)
+
 ;; display fill column indicator
 (add-hook 'prog-mode-hook 'display-fill-column-indicator-mode)
 
