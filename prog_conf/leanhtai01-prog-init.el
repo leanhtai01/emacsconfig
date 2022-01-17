@@ -31,6 +31,9 @@
 (setq gc-cons-threshold 100000000)
 (setq read-process-output-max (* 1024 1024))
 
+;; lsp-mode increase the file watch warning threshold
+(setq lsp-file-watch-threshold 2000)
+
 ;; lsp which-key integration
 (with-eval-after-load 'lsp-mode
   (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration))
