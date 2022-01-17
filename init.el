@@ -5,6 +5,9 @@
 
 ;;; Code:
 
+;; set backup edited files directory
+(setq backup-directory-alist `(("" . ,(concat user-emacs-directory "backup-edited-files"))))
+
 ;; add custom configurations to load-path
 (add-to-list 'load-path "~/.config/emacs/prog_conf")
 
