@@ -10,13 +10,14 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(vscode-dark-plus))
  '(custom-safe-themes t)
  '(magit-diff-refine-hunk 'all)
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
  '(package-selected-packages
-   '(smartparens web-mode rainbow-delimiters good-scroll dap-mode emmet-mode sqlup-mode helm-xref helm-lsp yasnippet-snippets yasnippet lsp-treemacs which-key flycheck lsp-ui company lsp-mode treemacs nhexl-mode magit))
+   '(vscode-dark-plus-theme smartparens web-mode rainbow-delimiters good-scroll dap-mode emmet-mode sqlup-mode helm-xref helm-lsp yasnippet-snippets yasnippet lsp-treemacs which-key flycheck lsp-ui company lsp-mode treemacs nhexl-mode magit))
  '(ring-bell-function 'ignore)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
