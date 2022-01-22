@@ -16,12 +16,13 @@
  '(magit-diff-refine-hunk 'all)
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
-     ("gnu" . "https://elpa.gnu.org/packages/")))
+	 ("gnu" . "https://elpa.gnu.org/packages/")))
  '(package-selected-packages
    '(lsp-java csharp-mode vscode-dark-plus-theme smartparens web-mode rainbow-delimiters dap-mode emmet-mode sqlup-mode helm-xref helm-lsp yasnippet-snippets yasnippet lsp-treemacs which-key flycheck lsp-ui company lsp-mode treemacs nhexl-mode magit))
  '(ring-bell-function 'ignore)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
+ '(tab-width 4)
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
