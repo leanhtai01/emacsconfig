@@ -41,6 +41,7 @@
 ;; load configurations for corresponding language
 (require 'leanhtai01-init-c)
 (require 'leanhtai01-init-cpp)
+(require 'leanhtai01-init-csharp)
 (require 'leanhtai01-init-elisp)
 (require 'leanhtai01-init-sh)
 (require 'leanhtai01-init-sql)
