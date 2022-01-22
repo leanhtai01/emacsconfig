@@ -12,6 +12,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(vscode-dark-plus))
  '(custom-safe-themes t)
+ '(delete-selection-mode t)
  '(magit-diff-refine-hunk 'all)
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
