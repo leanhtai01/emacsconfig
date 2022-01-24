@@ -15,6 +15,7 @@
  '(delete-selection-mode t)
  '(global-auto-revert-mode t)
  '(indent-tabs-mode nil)
+ '(inhibit-startup-screen t)
  '(magit-diff-refine-hunk 'all)
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
