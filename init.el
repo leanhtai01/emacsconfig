@@ -5,6 +5,11 @@
 
 ;;; Code:
 
+;; set initial window's size and position
+(when window-system
+  (set-frame-position (selected-frame) 560 0)
+  (set-frame-size (selected-frame) 85 50))
+
 ;; set backup edited files directory
 (setq backup-directory-alist `(("" . ,(concat user-emacs-directory "backup-edited-files"))))
 
