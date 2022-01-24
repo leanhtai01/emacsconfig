@@ -13,6 +13,7 @@
  '(custom-enabled-themes '(vscode-dark-plus))
  '(custom-safe-themes t)
  '(delete-selection-mode t)
+ '(global-auto-revert-mode t)
  '(indent-tabs-mode nil)
  '(magit-diff-refine-hunk 'all)
  '(package-archives
