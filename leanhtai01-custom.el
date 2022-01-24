@@ -34,6 +34,7 @@
  '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 113 :width normal))))
  '(diff-refine-added ((t (:background "#228622" :foreground "#f4f4f4"))))
  '(diff-refine-removed ((t (:background "#aa2222" :foreground "#f4f4f4"))))
+ '(magit-diff-file-heading ((t (:extend t :foreground "white" :weight bold))))
  '(magit-diff-removed-highlight ((t (:extend t :background "#663333" :foreground "#f4f4f4")))))
 
 (provide 'leanhtai01-custom)
