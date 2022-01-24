@@ -31,7 +31,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 113 :width normal)))))
+ '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 113 :width normal))))
+ '(diff-refine-added ((t (:background "#22aa22" :foreground "#f4f4f4"))))
+ '(diff-refine-removed ((t (:background "#aa2222" :foreground "#f4f4f4"))))
+ '(magit-diff-removed-highlight ((t (:extend t :background "#663333" :foreground "#f4f4f4")))))
 
 (provide 'leanhtai01-custom)
 
