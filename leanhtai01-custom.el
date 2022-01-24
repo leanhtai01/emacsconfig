@@ -34,6 +34,8 @@
  '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 113 :width normal))))
  '(diff-refine-added ((t (:background "#228622" :foreground "#f4f4f4"))))
  '(diff-refine-removed ((t (:background "#aa2222" :foreground "#f4f4f4"))))
+ '(magit-diff-added ((t (:extend t :background "#335533" :foreground "#e8e8e8"))))
+ '(magit-diff-added-highlight ((t (:extend t :background "#335533" :foreground "#f4f4f4"))))
  '(magit-diff-file-heading ((t (:extend t :foreground "white" :weight bold))))
  '(magit-diff-hunk-heading-highlight ((t (:extend t :background "#595959"))))
  '(magit-diff-removed-highlight ((t (:extend t :background "#663333" :foreground "#f4f4f4")))))
