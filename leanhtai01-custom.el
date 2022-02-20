@@ -32,7 +32,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:family "Hack" :foundry "SRC" :slant normal :weight normal :height 113 :width normal))))
+ '(default ((t (:family "Cascadia Mono PL" :foundry "SAJA" :slant normal :weight normal :height 120 :width normal))))
  '(diff-refine-added ((t (:background "#228622" :foreground "#f4f4f4"))))
  '(diff-refine-removed ((t (:background "#aa2222" :foreground "#f4f4f4"))))
  '(magit-diff-added ((t (:extend t :background "#335533" :foreground "#e8e8e8"))))
