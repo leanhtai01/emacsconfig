@@ -13,6 +13,7 @@
  '(custom-enabled-themes '(vscode-dark-plus))
  '(custom-safe-themes t)
  '(delete-selection-mode t)
+ '(fill-column 80)
  '(global-auto-revert-mode t)
  '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
