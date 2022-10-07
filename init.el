@@ -35,6 +35,9 @@
 (define-key global-map [remap execute-extended-command] #'helm-M-x)
 (define-key global-map [remap switch-to-buffer] #'helm-mini)
 
+;; use C-x C-u to convert entire region to uppercase
+(put 'upcase-region 'disabled nil)
+
 ;; load programming configurations
 (require 'leanhtai01-prog-init)
 
