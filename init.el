@@ -38,6 +38,9 @@
 ;; use C-x C-u to convert entire region to uppercase
 (put 'upcase-region 'disabled nil)
 
+;; use C-x C-l to convert entire region to lowercase
+(put 'downcase-region 'disabled nil)
+
 ;; load programming configurations
 (require 'leanhtai01-prog-init)
 
