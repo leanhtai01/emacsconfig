@@ -5,5 +5,5 @@
 !.gitignore
 !init.el
 !leanhtai01-custom.el
-!/prog_conf
-!/prog_conf/*.el
+!/prog-conf
+!/prog-conf/*.el

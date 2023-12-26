@@ -14,7 +14,7 @@
 (setq backup-directory-alist `(("" . ,(concat user-emacs-directory "backup-edited-files"))))
 
 ;; add custom configurations to load-path
-(add-to-list 'load-path (concat user-emacs-directory "prog_conf"))
+(add-to-list 'load-path (concat user-emacs-directory "prog-conf"))
 
 ;; load customizations
 (setq custom-file (concat user-emacs-directory "leanhtai01-custom.el"))
