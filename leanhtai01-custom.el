@@ -1,7 +1,7 @@
 ;;; leanhtai01-custom.el --- custom configurations
 
 ;;; Commentary:
-;; 
+;;
 
 ;;; Code:
 
@@ -18,6 +18,7 @@
  '(indent-tabs-mode nil)
  '(inhibit-startup-screen t)
  '(magit-diff-refine-hunk 'all)
+ '(magit-diff-refine-ignore-whitespace nil)
  '(package-archives
    '(("melpa" . "https://melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
