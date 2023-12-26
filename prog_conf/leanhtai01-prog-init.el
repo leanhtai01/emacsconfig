@@ -14,8 +14,14 @@
 ;; use rainbow-delimiters-mode
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
+;; use smartparens-mode
+(add-hook 'prog-mode-hook #'smartparens-mode)
+
 ;; use company mode
 (add-hook 'prog-mode-hook 'company-mode)
+
+;; use yasnippet
+(add-hook 'prog-mode-hook #'yas-minor-mode)
 
 ;; configure company-mode
 (setq company-minimum-prefix-length 1
