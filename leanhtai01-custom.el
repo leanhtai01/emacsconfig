@@ -23,7 +23,7 @@
    '(("melpa" . "https://melpa.org/packages/")
      ("gnu" . "https://elpa.gnu.org/packages/")))
  '(package-selected-packages
-   '(ivy lsp-ivy lsp-pyright lsp-java csharp-mode vscode-dark-plus-theme web-mode rainbow-delimiters dap-mode emmet-mode sqlup-mode lsp-treemacs which-key flycheck lsp-ui company lsp-mode treemacs nhexl-mode magit))
+   '(counsel lsp-ivy lsp-pyright lsp-java csharp-mode vscode-dark-plus-theme web-mode rainbow-delimiters dap-mode emmet-mode sqlup-mode lsp-treemacs which-key flycheck lsp-ui company lsp-mode treemacs nhexl-mode magit))
  '(ring-bell-function 'ignore)
  '(scroll-bar-mode nil)
  '(show-paren-mode t)
