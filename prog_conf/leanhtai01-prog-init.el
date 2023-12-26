@@ -14,9 +14,6 @@
 ;; use rainbow-delimiters-mode
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
 
-;; use smartparens-mode
-(add-hook 'prog-mode-hook #'smartparens-mode)
-
 ;; use company mode
 (add-hook 'prog-mode-hook 'company-mode)
 
