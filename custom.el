@@ -1,4 +1,4 @@
-;;; leanhtai01-custom.el --- custom configurations
+;;; custom.el --- custom configurations
 
 ;;; Commentary:
 ;;
@@ -43,6 +43,6 @@
  '(magit-diff-hunk-heading-highlight ((t (:extend t :background "#595959"))))
  '(magit-diff-removed-highlight ((t (:extend t :background "#663333" :foreground "#f4f4f4")))))
 
-(provide 'leanhtai01-custom)
+(provide 'custom)
 
-;;; leanhtai01-custom.el ends here
+;;; custom.el ends here

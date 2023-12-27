@@ -17,7 +17,7 @@
 (add-to-list 'load-path (concat user-emacs-directory "prog-conf"))
 
 ;; load customizations
-(setq custom-file (concat user-emacs-directory "leanhtai01-custom.el"))
+(setq custom-file (concat user-emacs-directory "custom.el"))
 (load custom-file)
 
 ;; automatic install missing packages
@@ -45,7 +45,7 @@
 (setq lsp-keymap-prefix "C-c l")
 
 ;; load programming configurations
-(require 'leanhtai01-prog-init)
+(require 'prog-init)
 
 (provide 'init)
 

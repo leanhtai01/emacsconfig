@@ -4,6 +4,6 @@
 ## not ignore files
 !.gitignore
 !init.el
-!leanhtai01-custom.el
+!custom.el
 !/prog-conf
 !/prog-conf/*.el

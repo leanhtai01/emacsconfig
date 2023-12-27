@@ -1,4 +1,4 @@
-;;; leanhtai01-init-web.el --- configurations for web programming
+;;; init-web.el --- configurations for web programming
 
 ;;; Commentary:
 ;; 
@@ -20,6 +20,6 @@
 (add-to-list 'auto-mode-alist '("\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 
-(provide 'leanhtai01-init-web)
+(provide 'init-web)
 
-;;; leanhtai01-init-web.el ends here
+;;; init-web.el ends here

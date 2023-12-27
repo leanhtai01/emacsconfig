@@ -1,4 +1,4 @@
-;;; leanhtai01-prog-init.el --- programming configurations init file
+;;; prog-init.el --- programming configurations init file
 
 ;;; Commentary:
 ;; 
@@ -39,16 +39,16 @@
   (add-hook 'lsp-mode-hook #'lsp-enable-which-key-integration))
 
 ;; load configurations for corresponding language
-(require 'leanhtai01-init-c)
-(require 'leanhtai01-init-cpp)
-(require 'leanhtai01-init-csharp)
-(require 'leanhtai01-init-java)
-(require 'leanhtai01-init-python)
-(require 'leanhtai01-init-elisp)
-(require 'leanhtai01-init-sh)
-(require 'leanhtai01-init-sql)
-(require 'leanhtai01-init-web)
+(require 'init-c)
+(require 'init-cpp)
+(require 'init-csharp)
+(require 'init-java)
+(require 'init-python)
+(require 'init-elisp)
+(require 'init-sh)
+(require 'init-sql)
+(require 'init-web)
 
-(provide 'leanhtai01-prog-init)
+(provide 'prog-init)
 
-;;; leanhtai01-prog-init.el ends here
+;;; prog-init.el ends here
